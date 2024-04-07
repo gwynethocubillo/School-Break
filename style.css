@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("menu background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.titleMenu{
+    align-self: center;
+    text-align: center;
+    margin-top: 8rem;
+    font-family:'Showcard Gothic';
+    font-size: 80px;
+    letter-spacing: 20px;
+    color: white
+}
+
+#home_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.playbutton{
+    margin-bottom: 50px;
+    margin: auto;
+    align-self: center;
+    font-family:'Showcard Gothic';
+    background: rgb(92, 70, 37);
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    top: 60%;
+    left: 45%;
+    border-radius: 20px;
+}
+
+.playbutton:hover{
+    background: rgb(2, 88, 81);
+    color: black;
+}
+
+.aboutme_button{
+    margin: auto;
+    align-self: center;
+    font-family:'Showcard Gothic';
+    background: rgb(92, 70, 37);
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    top: 60%;
+    left: 45%;
+    border-radius: 20px;
+}
+
+.aboutme_button:hover{
+    background: rgb(2, 88, 81);
+    color: black;
+}
