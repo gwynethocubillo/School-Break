@@ -31,9 +31,10 @@
     position: absolute;
     bottom: 25%;
     left: 20%;
-    background-image: url('assets/characterback-ezgif.com-crop.gif');
-    background-size: cover;
+    background-size: contain;
     background-position: bottom;
+    background-repeat: no-repeat;
+    object-fit: contain;
 }
 
 .player.jump {
@@ -51,7 +52,6 @@
     40% {
         bottom: 300px;
     }
-
     100% {
         bottom: 200px;
     }
@@ -84,9 +84,10 @@
 }
 
 .score-card {
-    color: #fff;
+    color: black;
     font-family: Minecraft;
-    font-size: 50px;
+    font-size: 25px;
+    font-weight: 15px;
     margin: 20px;
 }
 
@@ -137,6 +138,6 @@
     animation-play-state: paused;
 }
 
-.stop .player {
+/* .stop .player {
     background-image: url('assets/characterback-ezgif.com-crop.gif');
-}
+} */
