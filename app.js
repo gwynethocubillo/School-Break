@@ -28,7 +28,7 @@ function jump() {
     setTimeout(() => {
         playerElement.classList.remove('jump');
         jumping = false;
-    }, 1200)
+    }, 600)
 }
 
 
