@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="characters">
+      <button onclick="selectChar('assets/characterback-ezgif.com-crop.gif')">
+        <img src="assets/characterback-ezgif.com-crop.gif" />
+      </button>
+      <button onclick="selectChar('assets/charactr1fly.gif')">
+        <img src="assets/charactr1fly.gif" />
+      </button>
+    </div>
+    <script>
+      function selectChar(img) {
+        localStorage.setItem("character", img);
+        window.location.href = "game.html";
+      }
+    </script>
+  </body>
+</html>
