@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("menu background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutme{
+    text-align: center;
+    margin-top: 8rem;
+    color: antiquewhite;
+}
+
+.header{
+    font-family:'Showcard Gothic' ;
+    font-size: 50px;
+}
+
+.paragraph{
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+.link{
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color: rgb(176, 210, 240);
+}
+.disclaimer{
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: 100px;
+    color: #e20909; 
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    padding: 10px; /* Add some padding for better readability */
+}
