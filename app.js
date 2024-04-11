@@ -129,6 +129,8 @@ function main() {
     countScore();
     setHighScore(highscore);
     randomiseObstacle();
+    console.log(localStorage.getItem("character"))
+    document.querySelector(".player").style.backgroundImage = `url(${localStorage.getItem("character")})`
 };
 
 main();
